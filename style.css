@@ -37,3 +37,8 @@ img {
   color: #f4f4f4;
   cursor: pointer;
 }
+@media screen and (max-width: 560px) {
+  body {
+    flex-direction: column-reverse;
+  }
+}
